@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio | Anazetes Raymond</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="avatar.png" alt="Avatar" class="avatar">
+      <h2>Anazetes Raymond</h2>
+      <p class="role">Part-time Freelancer</p>
+      <div class="contact">
+        <p><strong>Email:</strong> anazetesraymond@gmail.com</p>
+        <p><strong>Phone:</strong> +91-xxxxxxxx</p>
+        <p><strong>DOB:</strong> June 10, 2001</p>
+        <p><strong>Location:</strong> Imphal, India</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <nav class="tabs">
+        <button class="tab active" data-filter="all">All</button>
+        <button class="tab" data-filter="hardware">Hardware</button>
+        <button class="tab" data-filter="software">Software</button>
+        <button class="tab" data-filter="embedded">Embedded</button>
+      </nav>
+
+      <div class="grid">
+        <a href="projects/potentiostat.html" class="card" data-category="hardware">
+          <img src="images/potentiostat.png" alt="Potentiostat" class="card-img">
+          <h3>3D Printed Potentiostat</h3>
+          <p>Modular open-source potentiostat with DAC & TIA</p>
+        </a>
+
+        <a href="projects/cold_storage.html" class="card" data-category="hardware">
+          <img src="images/cold_storage.png" alt="Cold Storage" class="card-img">
+          <h3>Cold Storage</h3>
+          <p>ESP32 based automatic UVC light control</p>
+        </a>
+
+        <a href="projects/voltage_generator.html" class="card" data-category="embedded">
+          <img src="images/voltage_generator.png" alt="Voltage Generator" class="card-img">
+          <h3>Voltage Generator</h3>
+          <p>Arduino based voltage generator</p>
+        </a>
+
+        <a href="projects/wound_segmentation.html" class="card" data-category="software">
+          <img src="images/wound_segmentation.png" alt="Wound Segmentation" class="card-img">
+          <h3>Wound Segmentation</h3>
+          <p>Detect wound from normal healthy tissue</p>
+        </a>
+
+        <a href="projects/smart_irrigation.html" class="card" data-category="embedded">
+          <img src="images/smart_irrigation.png" alt="Smart Irrigation" class="card-img">
+          <h3>Smart Irrigation</h3>
+          <p>Arduino + Android App for precision agriculture</p>
+        </a>
+
+        <a href="projects/robotic_hand.html" class="card" data-category="embedded">
+          <img src="images/robotic_hand.png" alt="Robotic Hand" class="card-img">
+          <h3>Robotic Hand</h3>
+          <p>Wireless control using Arduino</p>
+        </a>
+
+        <a href="projects/ecg_monitoring.html" class="card" data-category="embedded">
+          <img src="images/ecg_monitoring.png" alt="ECG Monitoring" class="card-img">
+          <h3>ECG Monitoring</h3>
+          <p>Real-time Arduino-based ECG system</p>
+        </a>
+
+        <a href="projects/mini_drone.html" class="card" data-category="embedded">
+          <img src="images/mini_drone.png" alt="Mini Drone" class="card-img">
+          <h3>Mini Drone</h3>
+          <p>Gyroscope-based drone with obstacle detection</p>
+        </a>
+
+        <a href="projects/quadcopter.html" class="card" data-category="hardware">
+          <img src="images/quadcopter.png" alt="Quadcopter" class="card-img">
+          <h3>Quadcoptor</h3>
+          <p>KK1.25-based stabilized quadcopter</p>
+        </a>
+
+        <a href="projects/smart_soil_sensor.html" class="card" data-category="embedded">
+          <img src="images/smart_soil_sensor.png" alt="Soil Sensor" class="card-img">
+          <h3>Smart Soil Sensor</h3>
+          <p>Arduino + App-based soil data logger</p>
+        </a>
+
+        <a href="projects/accident_responder.html" class="card" data-category="embedded">
+          <img src="images/accident_responder.png" alt="Responder" class="card-img">
+          <h3>Smart Accident Responder</h3>
+          <p>Auto alert with GPS & SIM modules</p>
+        </a>
+
+        <a href="projects/humanoid_eyes.html" class="card" data-category="embedded">
+          <img src="images/humanoid_eyes.png" alt="Humanoid Eyes" class="card-img">
+          <h3>Humanoid Eyes</h3>
+          <p>Servo-based eye mimic system</p>
+        </a>
+
+        <a href="projects/lifi.html" class="card" data-category="embedded">
+          <img src="images/lifi.png" alt="LiFi" class="card-img">
+          <h3>LiFi</h3>
+          <p>Light-based communication system</p>
+        </a>
+
+        <a href="projects/pro_pup.html" class="card" data-category="embedded">
+          <img src="images/pro_pup.png" alt="Pro Pup" class="card-img">
+          <h3>Pro Pup</h3>
+          <p>Quadruped robotic dog</p>
+        </a>
+
+        <a href="projects/emotion_recognition.html" class="card" data-category="embedded">
+          <img src="images/emotion_recognition.png" alt="Emotion Recognition" class="card-img">
+          <h3>Emotion Recognition</h3>
+          <p>Raspberry Pi + AI for emotion detection</p>
+        </a>
+
+        <a href="projects/game_controller.html" class="card" data-category="embedded">
+          <img src="images/game_controller.png" alt="Game Controller" class="card-img">
+          <h3>Game Controller</h3>
+          <p>Joystick + Arduino-based gaming control</p>
+        </a>
+
+        <a href="projects/percussion_device.html" class="card" data-category="hardware">
+          <img src="images/percussion_device.png" alt="Percussion Device" class="card-img">
+          <h3>Percussion Device</h3>
+          <p>Medical diagnostic tool using frequency circuit</p>
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
